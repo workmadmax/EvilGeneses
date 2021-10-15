@@ -22,7 +22,7 @@
 
   --clr-counter-bg: #32050c;
   --clr-counter-off: #430710;
-  -clr-counter-on: #dc0d29;
+  -clr-counter-on: rgb(220, 228, 117);
 
   --clr-switch: #3193de;
 
@@ -36,7 +36,7 @@ html{
 }
 
 body {
-  background-image: url(./img/eclipse.jpg);
+  background-image: url('../img/eclipse.jpg');
   font-family: "Bungee", Verdana, sans-serif;
 }
 
@@ -141,27 +141,27 @@ body {
 
 .group-large {
     display: flex;
-    width: 10rem;
-    margin-left: 4.5rem;
+    width: 15rem;
+    margin-left: 5.5rem;
 }
 
 .gui__label {
     font-family: "Arima Madurai", cursive;
     font-weight: bold;
-    font-size: 0.75rem;
+    font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
 }
 
 .gui__label--switch {
     margin: 0;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 .gui__btn {
 
     width: 6rem;
-    height: 2.5rem;
+    height: 3rem;
     margin-left: .4rem;
     border-radius: 5rem;
     box-shadow: 0 .2rem .3rem #222;
@@ -187,19 +187,19 @@ body {
     margin-left: .10rem;
     margin-right: .8rem;
     width: 10rem;
-    height: 2.2rem;
-    border-radius: .2rem;
+    height: 3rem;
+    border-radius: .3rem;
     cursor: pointer;
 }
 
 .gui__btn-switch::before {
     content: "";
     background-color: var(--clr-switch);
-    display: block;
+    display: grid;
     position: relative;
-    left: 2.5rem;
-    width: 3.8rem;
-    height: 1.9rem;
+    left: 5.9rem;
+    width: 4.2rem;
+    height: 3rem;
     border-radius: .3rem;
     border: .2rem solid #333;
 }
@@ -214,8 +214,8 @@ body {
     font-family: "Iceland", cursive;
     font-weight: bold;
     font-size: 3rem;
-    text-align: rigth;
-    width: 5.5rem;
+    text-align: right;
+    width: 6rem;
     border: .3rem solid #000;
     border-radius: 1rem;
     padding-right: .2rem;
@@ -230,9 +230,10 @@ body {
     background-color: #32050c;
     margin-left: 1rem;
     margin-bottom: .5rem;
-    width: .10rem;
-    height: .10rem;
+    width: 1rem;
+    height: 1rem;
     border: .3rem solid #222;
+    border-radius: 3rem;
 
 }
 
