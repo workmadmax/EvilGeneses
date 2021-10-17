@@ -195,9 +195,9 @@ body {
 .gui__btn-switch::before {
     content: "";
     background-color: var(--clr-switch);
-    display: grid;
+    display: flex;
     position: relative;
-    left: 5.9rem;
+    left: 5.8rem;
     width: 4.2rem;
     height: 3rem;
     border-radius: .3rem;
@@ -205,7 +205,7 @@ body {
 }
 
 .gui_btn-switch--on::before {
-    left: 0;
+    left: 0rem;
 }
 
 .gui__counter {
